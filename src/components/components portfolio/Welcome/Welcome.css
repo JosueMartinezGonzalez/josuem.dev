@@ -1,0 +1,98 @@
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--white);
+}
+.welcomeContainer p, h2 {
+    margin-top: 25px;
+}
+
+.welcomeContainer--welcome h2 {
+    font-size: 3.4rem;
+}
+.welcomeContainer--welcome h1 {
+    font-size: 12rem;
+}
+.welcomeContainer--welcome p {
+    font-size: 3.3rem;
+}
+.writer span {
+    font-size: 3.3rem;
+}
+
+.welcomeContainer--socialsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.welcomeContainer--socialsContainer__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.welcomeContainer--socialsContainer__socials p {
+    width: 103px;
+    height: 79px;
+    margin: 0 auto;
+    border-radius: 2px !important;
+    animation: 10s linear 0s infinite alternate none running changeToColorBackgroundAndBorder;
+}
+.welcomeContainer--socialsContainer__socials p a {
+    color: var(--white);
+    text-decoration: none;
+}
+.welcomeContainer--socialsContainer__socials p a i {
+    padding: 0 25px;
+    font-size: 6rem;
+    transition: ease-in-out 0.1s;
+}
+.welcomeContainer--socialsContainer__socials p a i:hover {
+    border: 2.5px solid var(--white);
+}
+.welcomeContainer--socialsContainer__socials .rowDown {
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+.welcomeContainer--socialsContainer__socials .rowDown:hover, .rowDown:focus {
+    -webkit-transform: translateY(0.25em);
+    transform: translateY(0.25em);
+}
+
+
+
+@keyframes changeToColorBackgroundAndBorder {
+    0% {
+        background-color: rgba(255, 255, 255, 0.473);
+        border: 5px solid #fff;
+    }
+    20%{
+        background-color: #009b486e;
+        border: 5px solid #009b48;
+    }
+    40% {
+        background-color: #880c246e;
+        border: 5px solid #880c24;
+    }
+    60% {
+        background-color: #0046ad6e;
+        border: 5px solid #0046ad;
+    }
+    80% {
+        background-color: #b946096e;
+        border: 5px solid #b94609;
+    }
+    100% {
+        background-color: #ffd5006e;
+        border: 5px solid #ffd500;
+    }
+}

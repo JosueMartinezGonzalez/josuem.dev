@@ -1,0 +1,117 @@
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    background: rgba(208, 65, 67, 0.01);
+    backdrop-filter: blur(10px);
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.headerContainer--logoContainer__logo {
+    width: 150px;
+    height: 50px;
+}
+.headerContainer--menu {
+    width: auto;
+}
+.headerContainer--menu nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.headerContainer--menu nav ul li {
+    font-size: 3rem;
+    padding: 15px;
+}
+.headerContainer--menu nav ul li a {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: var(--white);
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu__option {
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+.menu__option:hover, .menu__option:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #5745ac;
+    -webkit-transform: translateY(0.25em);
+    transform: translateY(0.25em);
+}
+
+.header--menu__contact {
+    position: relative;
+	display: block;
+	overflow: hidden;
+    width: 175px;
+    height: 40px;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    background-color: #5745ac;
+    border: 2.5px solid var(--white);
+    border-radius: 3rem;
+	transition: all ease 0.5s;
+}
+.header--menu__contact:after,
+.header--menu__contact:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-55%;
+}
+.header--menu__contact:before{
+	left: -78%;
+}
+.header--menu__contact:hover, .header--menu__contact:focus {
+	background:#265a2f;
+    box-shadow: 0 0 0 1.5rem rgba(255, 255, 255, 0);
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+.header--menu__contact:hover:after,
+.header--menu__contact:hover:before{
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+	transform: rotate(45deg), scaleX(130%);
+}
+.header--menu__contact:hover:after{
+	right: 130%;
+}
+.header--menu__contact:hover:before{
+	left: 130%;
+}
+
+.headerContainer--menu nav ul li a i {
+    font-size: 4rem;
+    padding: 5px;
+    margin-bottom: 2.5px;
+}
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--white);
+    }
+}

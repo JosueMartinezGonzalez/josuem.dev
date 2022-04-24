@@ -6,11 +6,15 @@ module.exports = {
     entry: './src/index/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'app.bundle.js'
+        filename: 'app.bundle.js',
+        publicPath: '/',
     },
     mode: 'development',
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        alias: {
+            '@images': path.resolve(__dirname, 'src/assets'),
+        }
     },
     module: {
         rules: [
@@ -35,6 +39,10 @@ module.exports = {
                     "style-loader",
                     "css-loader"
                 ]
+            },
+            {
+                test: /\.(png|svg|jpg|gif)$/,
+                type: 'asset'
             }
         ]
     },
