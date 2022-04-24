@@ -23,9 +23,9 @@ function Welcome() {
             </div>
             <div className="welcomeContainer--socialsContainer">
                 <div className="welcomeContainer--socialsContainer__socials">
-                    <p><a href='#'><i> <AiFillGithub /> </i></a></p>
-                    <p><a href='#'><i> <BsLinkedin /> </i></a></p>
-                    <p><a href='#'><i> <AiFillTwitterCircle /> </i></a></p>
+                    <p><a href='https://github.com/JosueMartinezGonzalez' target="_blank"><i> <AiFillGithub /> </i></a></p>
+                    <p><a href='https://www.linkedin.com/in/josue-armando-martinez-gonzalez-7a3277174/' target="_blank"><i> <BsLinkedin /> </i></a></p>
+                    <p><a href='https://twitter.com/devjamg' target="_blank"><i> <AiFillTwitterCircle /> </i></a></p>
                 </div>
                 <div className="welcomeContainer--socialsContainer__socials">
                     <p className='colors'><a href='#'></a></p>

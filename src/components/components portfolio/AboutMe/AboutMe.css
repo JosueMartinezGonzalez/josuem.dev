@@ -1,0 +1,166 @@
+.aboutMeContainer {
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    grid-template-rows: 1fr;
+    width: 100%;
+    max-width: 1024px;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+.aboutMeContainer--AboutMeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    padding: 0 25px;
+}
+.content--title h2 {
+    margin: 0 auto;
+    font-size: 7rem;
+    color: #ffae00;
+}
+.AboutMeContent--title__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+}
+.AboutMeContent--title__options .option {
+    padding: 5px 10px;
+    font-size: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+.AboutMeContent--title__options .optionActive {
+    color: #ffae00;
+    border-bottom: 1px solid #ffae0096;
+}
+.AboutMeContent--perfilContainer {
+    margin-bottom: 150px;
+}
+.perfilContainer--perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 30px;
+    font-size: 3rem;
+    color: #ffffff;
+}
+.perfilContainer--contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 25px;
+    margin-top: 50px;
+}
+.perfilContainer--contact a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.perfilContainer--contact a i {
+    font-size: 3.5rem;
+}
+.perfilContainer--contact .downlandCV {
+    background-color: #ffffff;
+    color: #265a2f;
+}
+
+.perfilContainer--skills ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.perfilContainer--list ul li {
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.perfilContainer--skills ul li p {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.perfilContainer--skills ul li p i {
+    margin-right: 15px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.perfilContainer--certificates {
+    padding: 0 30px;
+}
+.perfilContainer--certificates ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.curse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: #97ca3f75;
+    border: 2px solid #98ca3f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.curse:hover {
+    border: 3px solid #98ca3f;
+}
+.perfilContainer--certificates ul li a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.aboutMeContainer--photo img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    animation: 10s linear 0s infinite alternate none running changeToColorShadowRed;
+}
+
+
+
+@keyframes changeToColorShadowRed {
+    0% {
+        -webkit-box-shadow: 2px 2px 18px 0px rgba(136,12,36,1);
+        -moz-box-shadow: 2px 2px 18px 0px rgba(136,12,36,1);
+        box-shadow: 2px 2px 18px 0px rgba(136,12,36,1);
+    }
+    50% {
+        -webkit-box-shadow: 2px 2px 18px 0px rgba(185,70,9,1);
+        -moz-box-shadow: 2px 2px 18px 0px rgba(185,70,9,1);
+        box-shadow: 2px 2px 18px 0px rgba(185,70,9,1);
+    }
+    100% {
+        -webkit-box-shadow: 2px 2px 18px 0px rgba(255,213,0,1);
+        -moz-box-shadow: 2px 2px 18px 0px rgba(255,213,0,1);
+        box-shadow: 2px 2px 18px 0px rgba(255,213,0,1);
+    }
+}
+
