@@ -49,7 +49,7 @@ header {
     -webkit-transition: 0.25s;
     transition: 0.25s;
 }
-.menu__option:hover, .menu__option:focus {
+.menu__option:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #5745ac;
     -webkit-transform: translateY(0.25em);
     transform: translateY(0.25em);

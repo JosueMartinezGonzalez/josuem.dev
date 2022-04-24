@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './Header.css'
+
 import { IoMdMail  } from 'react-icons/io'
 import logo from '@images/logo.png'
 
@@ -9,7 +10,7 @@ function Header() {
         <header>
             <div className="headerContainer">
                 <div className="headerContainer--logoContainer">
-                <a href="#">
+                <a href="https://josuem.dev">
                     <img
                         className='headerContainer--logoContainer__logo'
                         src={logo}
@@ -26,7 +27,7 @@ function Header() {
                                 <a className='menu__option' href="#">Portafolio</a>
                             </li>
                             <li>
-                                    <a className='header--menu__contact' href="#">Contáctame <i> <IoMdMail/> </i></a>
+                                    <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contáctame <i> <IoMdMail/> </i></a>
                             </li>
                         </ul>
                     </nav>

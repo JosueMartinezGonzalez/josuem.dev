@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Welcome } from '../Welcome';
 import { AboutMe } from '../AboutMe';
-// import { Projects } from '../Projects';
+import { Projects } from '../Projects';
 
 import './Main.css'
 
@@ -11,7 +11,7 @@ function Main() {
         <main>
             <Welcome></Welcome>
             <AboutMe></AboutMe>
-            {/* <Projects></Projects> */}
+            <Projects></Projects>
         </main>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './AboutMe.css'
+
 import { IoMdMail  } from 'react-icons/io'
 import { AiFillHtml5, AiOutlineCloudDownload } from 'react-icons/ai'
 import { IoLogoJavascript } from 'react-icons/io'
@@ -10,6 +11,7 @@ import { DiCss3  } from 'react-icons/di'
 import { SiWebpack  } from 'react-icons/si'
 import photo from '@images/photo.jpg'
 import certificate from '@images/diploma-frontend-developer-2019_page-0001.jpg'
+import CV_JosueMartinez from '@pdf/CV-Josue-Martinez.pdf'
 
 function AboutMe() {
 
@@ -34,8 +36,8 @@ function AboutMe() {
                     <div className="perfilContainer--perfil">
                         <p>Desarrollador Frontend especializándome en React JS. Creación y desarrollo de productos digitales innovadores centrados en los usuarios. Estudiante de Platzi 💚</p>
                         <div className="perfilContainer--contact">
-                            <a className='header--menu__contact' href="#">Contáctame <i> <IoMdMail/> </i></a>
-                            <a className='header--menu__contact downlandCV' href="#">Descargar CV <i> <AiOutlineCloudDownload/> </i></a>
+                            <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contáctame <i> <IoMdMail/> </i></a>
+                            <a className='header--menu__contact downlandCV' download="CV Josue Martinez" href={CV_JosueMartinez}>Descargar CV <i> <AiOutlineCloudDownload/> </i></a>
                         </div>
                     </div>
                     {/* Dar none */}

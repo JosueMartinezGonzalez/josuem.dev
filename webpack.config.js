@@ -13,7 +13,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
-            '@images': path.resolve(__dirname, 'src/assets'),
+            '@images': path.resolve(__dirname, 'src/assets/images'),
+            '@pdf': path.resolve(__dirname, 'src/assets/pdf')
         }
     },
     module: {
@@ -42,6 +43,10 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
+                type: 'asset'
+            },
+            {
+                test: /\.pdf$/,
                 type: 'asset'
             }
         ]
