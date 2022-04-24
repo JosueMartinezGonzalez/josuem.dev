@@ -40,7 +40,7 @@ function Projects() {
                         <h2>Agency Landing Page</h2>
                         <p>React, css, GitHub Pages</p>
                         <div className="project--description__buttons">
-                            <a className='header--menu__contact' href="#">Ir <i> <BiLinkExternal/> </i></a>
+                            <a className='header--menu__contact' href="/agency-landing-page">Ir <i> <BiLinkExternal/> </i></a>
                             <a className='header--menu__contact' href="#">GitHub <i> <BiLinkExternal/> </i></a>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ function Projects() {
                         <h2>Freebie Page</h2>
                         <p>React, css, GitHub Pages</p>
                         <div className="project--description__buttons">
-                            <a className='header--menu__contact' href="#">Ir <i> <BiLinkExternal/> </i></a>
+                            <a className='header--menu__contact' href="/freebie">Ir <i> <BiLinkExternal/> </i></a>
                             <a className='header--menu__contact' href="#">GitHub <i> <BiLinkExternal/> </i></a>
                         </div>
                     </div>
