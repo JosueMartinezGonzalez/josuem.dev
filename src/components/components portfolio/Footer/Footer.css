@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    height: 15vh;
+    margin: 0 auto;
+    font-size: 3rem;
+    color: var(--white);
+}
+footer p {
+    margin-top: 15px;
+}
