@@ -38,6 +38,10 @@
     cursor: pointer;
 }
 .AboutMeContent--title__options .optionActive {
+    padding: 5px 10px;
+    font-size: 3rem;
+    color: #ffffff;
+    cursor: pointer;
     color: #ffae00;
     border-bottom: 1px solid #ffae0096;
 }
@@ -45,7 +49,6 @@
     margin-bottom: 150px;
 }
 .perfilContainer--perfil {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

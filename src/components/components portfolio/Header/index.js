@@ -3,7 +3,7 @@ import React from 'react'
 import './Header.css'
 
 import { IoMdMail  } from 'react-icons/io'
-import logo from '@images/logo.png'
+import logo from '@images/images/logo.png'
 
 function Header() {
     return(

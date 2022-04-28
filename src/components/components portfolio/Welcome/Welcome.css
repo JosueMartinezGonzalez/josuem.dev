@@ -23,6 +23,9 @@
 .welcomeContainer--welcome p {
     font-size: 3.3rem;
 }
+.writer {
+    margin: 20px auto;
+}
 .writer span {
     font-size: 3.3rem;
 }

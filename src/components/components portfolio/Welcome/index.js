@@ -12,14 +12,14 @@ function Welcome() {
             <div className="welcomeContainer--welcome">
                 <h2>¡Hola! Yo soy,</h2>
                 <h1>Josue Martinez</h1>
-                <p className='writer'> <Typewriter
+                <div className='writer'> <Typewriter
                         options={{
                             strings: ['Frontend Developer', 'React Developer'],
                             autoStart: true,
                             loop: true,
                         }}
                     />
-                </p>
+                </div>
             </div>
             <div className="welcomeContainer--socialsContainer">
                 <div className="welcomeContainer--socialsContainer__socials">

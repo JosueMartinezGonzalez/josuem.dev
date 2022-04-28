@@ -1,0 +1,52 @@
+[
+    {
+        "certificateId": 1,
+        "url": "https://platzi.com/clases/2484-react-practico/42067-que-es-reactjs/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 2,
+        "url": "https://platzi.com/clases/2484-react-practico/42216-conceptos-fundamentales-de-react/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 3,
+        "url": "https://platzi.com/clases/2484-react-practico/42068-instalacion-de-react-y-react-dom/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 4,
+        "url": "https://platzi.com/clases/2484-react-practico/42069-configuracion-de-webpack-y-babel/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 5,
+        "url": "https://platzi.com/clases/2484-react-practico/42070-cambios-en-tiempo-real-con-webpack/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpgdiploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 6,
+        "url": "https://platzi.com/clases/2484-react-practico/42071-react-con-css-y-sass/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 7,
+        "url": "https://platzi.com/clases/2484-react-practico/42072-transformando-html-y-css-en-componentes-de-react/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 8,
+        "url": "https://platzi.com/clases/2484-react-practico/42073-estilos-en-los-componentes-de-react/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 9,
+        "url": "https://platzi.com/clases/2484-react-practico/42074-react-router-dom/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    },
+    {
+        "certificateId": 10,
+        "url": "https://platzi.com/clases/2484-react-practico/42075-navegacion-entre-rutas/",
+        "image": "diploma-frontend-developer-2019_page-0001.jpg"
+    }
+]

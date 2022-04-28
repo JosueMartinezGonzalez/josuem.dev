@@ -13,7 +13,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
-            '@images': path.resolve(__dirname, 'src/assets/images'),
+            '@images': path.resolve(__dirname, 'src/assets/'),
             '@pdf': path.resolve(__dirname, 'src/assets/pdf')
         }
     },
