@@ -5,11 +5,14 @@ footer {
     align-items: center;
     width: 100%;
     max-width: 1024px;
-    height: 15vh;
+    min-height: 15vh;
     margin: 0 auto;
+    padding: 5px;
     font-size: 3rem;
+    text-align: center;
     color: var(--white);
 }
 footer p {
+    padding: 5px;
     margin-top: 15px;
 }

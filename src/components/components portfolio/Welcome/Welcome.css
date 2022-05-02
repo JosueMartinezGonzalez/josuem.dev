@@ -53,6 +53,7 @@
 .welcomeContainer--socialsContainer__socials p a {
     color: var(--white);
     text-decoration: none;
+    cursor: pointer;
 }
 .welcomeContainer--socialsContainer__socials p a i {
     padding: 0 25px;

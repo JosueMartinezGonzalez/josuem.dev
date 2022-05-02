@@ -10,8 +10,15 @@ import { FaReact  } from 'react-icons/fa'
 import { DiCss3  } from 'react-icons/di'
 import { SiWebpack  } from 'react-icons/si'
 import photo from '@images/images/photo.jpg'
-import certificate from '@images/images/diploma-frontend-developer-2019_page-0001.jpg'
+import certificateA from '@images/images/diploma-3.jpg'
+import certificateB from '@images/images/diploma-4.jpg'
+import certificateC from '@images/images/diploma-5.jpg'
+import certificateD from '@images/images/diploma-6.jpg'
+import certificateE from '@images/images/diploma-7.jpg'
+import certificateF from '@images/images/diploma-8.jpg'
+import certificateG from '@images/images/diploma-9.jpg'
 import CV_JosueMartinez from '@pdf/CV-Josue-Martinez.pdf'
+
 
 function AboutMe() {
 
@@ -24,7 +31,12 @@ function AboutMe() {
             profileContent: " ",
             certificatesContent: " none",
         }
-    );
+        );
+        const [certi, setCerti] = useState(
+            {
+            imageUrl: photo
+        }
+    )
 
     const handleClick = (option) => {
         if(option === 'skills') {
@@ -62,9 +74,20 @@ function AboutMe() {
             )
         }
     }
-
-    const handleHover = () => {
-
+    console.clear()
+    const handleMouseOve = (certificateUrl) => {
+        setCerti(
+            {
+                imageUrl: certificateUrl
+            }
+        )
+    }
+    const handleMouseLeave = () => {
+        setCerti(
+            {
+                imageUrl: photo
+            }
+        )
     }
 
 
@@ -107,44 +130,57 @@ function AboutMe() {
                     {/* Dar none */}
                     <div className={'perfilContainer--certificates perfilContainer--list'+ menu.certificatesContent}>
                         <ul>
-
-                            <div onMouseOver={() => {console.log('Hola')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 1</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank">
+                                    <img src={certificateA} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola2')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 2</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateA} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola3')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 3</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateA} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola4')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 4</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateB)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateB} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola5')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 5</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateC)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateC} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola6')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 6</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateD)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateD} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola7')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 7</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateE)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateE} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola8')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 8</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateF)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateF} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
-                            <div onMouseOver={() => {console.log('Hola9')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 9</a></li>
-                            </div>
-                            <div onMouseOver={() => {console.log('Hola10')}} className="curse">
-                                <li><a href="#">Curso Desarrollo 10</a></li>
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateG)}} className="curse">
+                                <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
+                                    <img src={certificateG} alt="certificado de Josue Martinez" />
+                                </a>
                             </div>
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="aboutMeContainer--photo">
-                <img className='' src={photo} alt="Photo of Josue Martinez is a Frontend developer" />
-                <img className='none' src={certificate} alt="Photo of Josue Martinez is a Frontend developer" />
+                <img className='photoProfile' src={certi.imageUrl} alt="Photo of Josue Martinez is a Frontend developer" />
             </div>
         </section>
     )

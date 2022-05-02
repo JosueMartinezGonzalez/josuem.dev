@@ -1,0 +1,47 @@
+
+@media (max-width: 1024px) {
+
+    /* AboutMe Styles */
+    .aboutMeContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .aboutMeContainer--AboutMeContent {
+        margin: 0 auto;
+    }
+    .aboutMeContainer--photo {
+        margin: 0 auto;
+    }
+    .aboutMeContainer--photo .photoProfile {
+        margin: 0 auto;
+    }
+
+
+    /* Projects Styles */
+    .projectsContent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 35px auto;
+    }
+    .project {
+        flex-direction: column;
+        min-height: 425px;
+        margin: 0 auto;
+    }
+    .project--description {
+        position: relative;
+        height: 135px;
+        opacity: 1;
+        visibility: inherit;
+    }
+    .project--description h2 {
+        font-size: 2.5rem;
+        margin: 5px auto;
+    }
+    .project:hover > .project--description h2 {
+        margin: 10px auto;
+    }
+    .project--description p {
+        font-size: 1.5rem;
+    }
+}

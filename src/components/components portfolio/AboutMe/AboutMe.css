@@ -4,7 +4,7 @@
     grid-template-rows: 1fr;
     width: 100%;
     max-width: 1024px;
-    height: 75vh;
+    min-height: 65vh;
     margin: 0 auto;
 }
 
@@ -71,8 +71,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    width: 180px;
     height: 55px;
+    margin-top: 15px;
     font-size: 2rem;
     color: #ffffff;
     text-decoration: none;
@@ -123,26 +124,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 75px;
+    width: 130px;
+    height: 102px;
     background-color: #97ca3f75;
     border: 2px solid #98ca3f;
     border-radius: 5px;
     cursor: pointer;
+    margin: 1px;
+}
+.curse img {
+    max-width: 125px;
 }
 .curse:hover {
     border: 3px solid #98ca3f;
 }
-.perfilContainer--certificates ul li a {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .aboutMeContainer--photo img {
     width: 100%;
-    max-width: 450px;
+    max-width: 400px;
+    margin-top: 80px;
     border-radius: 5px;
     animation: 10s linear 0s infinite alternate none running changeToColorShadowRed;
 }

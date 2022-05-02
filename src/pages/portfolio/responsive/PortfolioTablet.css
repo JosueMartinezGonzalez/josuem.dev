@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+
+    /* Header Styles */
+    header {
+        height: 120px;
+    }
+    .headerContainer {
+        justify-content: center;
+    }
+
+
+    /* Welcome Styles */
+    .welcomeContainer {
+        padding-top: 60px;
+    }
+
+
+    /* AboutMe Styles */
+    .aboutMeContainer--photo .photoProfile {
+        margin-top: 25px;
+    }
+
+
+    /* Projects Styles */
+    .projectsContainer {
+        text-align: center;
+    }
+}

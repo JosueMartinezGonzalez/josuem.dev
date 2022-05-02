@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 import './Header.css'
 
@@ -21,10 +22,10 @@ function Header() {
                     <nav>
                         <ul>
                             <li>
-                                <a className='menu__option' href="#">Sobre mi</a>
+                                <Link className='menu__option' smooth={true} to="aboutMePosition">Sobre mi</Link>
                             </li>
                             <li>
-                                <a className='menu__option' href="#">Portafolio</a>
+                                <Link className='menu__option' smooth={true} to="projectsPosition">Portafolio</Link>
                             </li>
                             <li>
                                     <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contáctame <i> <IoMdMail/> </i></a>
