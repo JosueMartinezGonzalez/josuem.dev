@@ -11,7 +11,7 @@ function Welcome() {
     return(
         <section className='welcomeContainer'>
             <div className="welcomeContainer--welcome">
-                <h2>¡Hola! Yo soy,</h2>
+                <h2>¡Hi! I am,</h2>
                 <h1>Josue Martinez</h1>
                 <div className='writer'> <Typewriter
                         options={{

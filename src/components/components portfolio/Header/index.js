@@ -22,13 +22,13 @@ function Header() {
                     <nav>
                         <ul>
                             <li>
-                                <Link className='menu__option' smooth={true} to="aboutMePosition">Sobre mi</Link>
+                                <Link className='menu__option' smooth={true} to="aboutMePosition">About Me</Link>
                             </li>
                             <li>
-                                <Link className='menu__option' smooth={true} to="projectsPosition">Portafolio</Link>
+                                <Link className='menu__option' smooth={true} to="projectsPosition">Portfolio</Link>
                             </li>
                             <li>
-                                    <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contáctame <i> <IoMdMail/> </i></a>
+                                    <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contact Me <i> <IoMdMail/> </i></a>
                             </li>
                         </ul>
                     </nav>

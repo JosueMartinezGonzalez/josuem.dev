@@ -10,6 +10,8 @@ import { FaReact  } from 'react-icons/fa'
 import { DiCss3  } from 'react-icons/di'
 import { SiWebpack  } from 'react-icons/si'
 import photo from '@images/images/photo.jpg'
+import certificateR from '@images/images/diploma-1.jpg'
+import certificateFR from '@images/images/diploma-2.jpg'
 import certificateA from '@images/images/diploma-3.jpg'
 import certificateB from '@images/images/diploma-4.jpg'
 import certificateC from '@images/images/diploma-5.jpg'
@@ -95,25 +97,25 @@ function AboutMe() {
         <section className='aboutMeContainer'>
             <div className="aboutMeContainer--AboutMeContent">
                 <div className="AboutMeContent--title content--title">
-                    <h2>Sobre mi</h2>
+                    <h2>About Me</h2>
                     <div className="AboutMeContent--title__options">
                         <div onClick={() => {handleClick('skills')}} className={menu.skills}>
-                            <p>Habilidades</p>
+                            <p>Skills</p>
                         </div>
                         <div onClick={() => {handleClick('profile')}} className={menu.profile}>
-                            <p>Perfil</p>
+                            <p>Profile</p>
                         </div>
                         <div onClick={() => {handleClick('certificates')}} className={menu.certificates}>
-                            <p>Certificados</p>
+                            <p>Certificates</p>
                         </div>
                     </div>
                 </div>
                 <div className="AboutMeContent--perfilContainer">
                     <div className={'perfilContainer--perfil perfilContainer--list'+ menu.profileContent}>
-                        <p>Desarrollador Frontend especializándome en React JS. Creación y desarrollo de productos digitales innovadores centrados en los usuarios. Estudiante de Platzi 💚</p>
+                        <p>Frontend developer specializing in React JS. Creation and development of innovative digital products focused on users. Platzi student 💚</p>
                         <div className="perfilContainer--contact">
-                            <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contáctame <i> <IoMdMail/> </i></a>
-                            <a className='header--menu__contact downlandCV' download="CV Josue Martinez" href={CV_JosueMartinez}>Descargar CV <i> <AiOutlineCloudDownload/> </i></a>
+                            <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contact Me <i> <IoMdMail/> </i></a>
+                            <a className='header--menu__contact downlandCV' download="CV Josue Martinez" href={CV_JosueMartinez}>Download CV <i> <AiOutlineCloudDownload/> </i></a>
                         </div>
                     </div>
                     {/* Dar none */}
@@ -130,14 +132,14 @@ function AboutMe() {
                     {/* Dar none */}
                     <div className={'perfilContainer--certificates perfilContainer--list'+ menu.certificatesContent}>
                         <ul>
-                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateR)}} className="curse">
                                 <a href="https://platzi.com/p/JosueM/" target="_blank">
-                                    <img src={certificateA} alt="certificado de Josue Martinez" />
+                                    <img src={certificateR} alt="certificado de Josue Martinez" />
                                 </a>
                             </div>
-                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
+                            <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateFR)}} className="curse">
                                 <a href="https://platzi.com/p/JosueM/" target="_blank" rel="noopener noreferrer">
-                                    <img src={certificateA} alt="certificado de Josue Martinez" />
+                                    <img src={certificateFR} alt="certificado de Josue Martinez" />
                                 </a>
                             </div>
                             <div onMouseLeave={() => {handleMouseLeave()}} onMouseOver={() => {handleMouseOve(certificateA)}} className="curse">
