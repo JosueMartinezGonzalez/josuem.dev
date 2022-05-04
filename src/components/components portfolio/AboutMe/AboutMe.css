@@ -139,7 +139,7 @@
     border: 3px solid #98ca3f;
 }
 
-.aboutMeContainer--photo img {
+.aboutMeContainer--photo .photoProfile {
     width: 100%;
     max-width: 400px;
     margin-top: 80px;

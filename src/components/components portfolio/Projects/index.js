@@ -3,10 +3,10 @@ import React from 'react'
 import './Projects.css'
 
 import { BiLinkExternal  } from 'react-icons/bi'
-import first_project from '@images/images/project_1.png'
-import second_project from '@images/images/project_2.png'
-import third_project from '@images/images/project_3.png'
-import fourth_project from '@images/images/project_4.png'
+import first_project from '@images/images/project_1.webp'
+import second_project from '@images/images/project_2.webp'
+import third_project from '@images/images/project_3.webp'
+import fourth_project from '@images/images/project_4.webp'
 
 
 function Projects() {

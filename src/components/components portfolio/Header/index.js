@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 import './Header.css'
 
 import { IoMdMail  } from 'react-icons/io'
-import logo from '@images/images/logo.png'
+import logo from '@images/images/logo.webp'
 
 function Header() {
     return(
@@ -22,10 +22,10 @@ function Header() {
                     <nav>
                         <ul>
                             <li>
-                                <Link className='menu__option' smooth={true} to="aboutMePosition">About Me</Link>
+                                <Link href="#" className='menu__option' smooth={true} to="aboutMePosition">About Me</Link>
                             </li>
                             <li>
-                                <Link className='menu__option' smooth={true} to="projectsPosition">Portfolio</Link>
+                                <Link href="#" className='menu__option' smooth={true} to="projectsPosition">Portfolio</Link>
                             </li>
                             <li>
                                     <a className='header--menu__contact' href="mailto:contact@josuem.dev">Contact Me <i> <IoMdMail/> </i></a>

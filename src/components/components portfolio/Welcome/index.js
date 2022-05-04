@@ -29,18 +29,18 @@ function Welcome() {
                     <p><a href='https://twitter.com/devjamg' target="_blank"><i> <AiFillTwitterCircle /> </i></a></p>
                 </div>
                 <div className="welcomeContainer--socialsContainer__socials">
-                    <p className='colors'><a href='#'></a></p>
-                    <p className='colors'><a href='#'></a></p>
-                    <p className='colors'><a href='#'></a></p>
+                    <p className='colors'></p>
+                    <p className='colors'></p>
+                    <p className='colors'></p>
                 </div>
                 <div className="welcomeContainer--socialsContainer__socials">
-                    <p className='colors'><a href='#'></a></p>
+                    <p className='colors'></p>
                     <p >
                         <Link className='menu__option' name="aboutMePosition" smooth={true} to="aboutMePosition">
                             <i> <FaArrowCircleDown className='rowDown' /> </i>
                         </Link>
                     </p>
-                    <p className='colors'><a href='#'></a></p>
+                    <p className='colors'></p>
                 </div>
             </div>
         </section>

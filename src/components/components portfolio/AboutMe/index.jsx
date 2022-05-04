@@ -9,7 +9,7 @@ import { FiFigma  } from 'react-icons/fi'
 import { FaReact  } from 'react-icons/fa'
 import { DiCss3  } from 'react-icons/di'
 import { SiWebpack  } from 'react-icons/si'
-import photo from '@images/images/photo.jpg'
+import photo from '@images/images/photo.webp'
 import certificateR from '@images/images/diploma-1.jpg'
 import certificateFR from '@images/images/diploma-2.jpg'
 import certificateA from '@images/images/diploma-3.jpg'
@@ -99,14 +99,14 @@ function AboutMe() {
                 <div className="AboutMeContent--title content--title">
                     <h2>About Me</h2>
                     <div className="AboutMeContent--title__options">
-                        <div onClick={() => {handleClick('skills')}} className={menu.skills}>
-                            <p>Skills</p>
-                        </div>
                         <div onClick={() => {handleClick('profile')}} className={menu.profile}>
                             <p>Profile</p>
                         </div>
                         <div onClick={() => {handleClick('certificates')}} className={menu.certificates}>
                             <p>Certificates</p>
+                        </div>
+                        <div onClick={() => {handleClick('skills')}} className={menu.skills}>
+                            <p>Skills</p>
                         </div>
                     </div>
                 </div>

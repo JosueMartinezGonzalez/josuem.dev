@@ -17,6 +17,9 @@
 
 
     /* Welcome Styles */
+    .welcomeContainer--welcome {
+        padding-top: 175px;
+    }
     .content--title h2 {
         font-size: 5rem;
     }
@@ -30,8 +33,17 @@
 
 
     /* AboutMe Styles */
+    .aboutMeContainer {
+        margin-top: 150px;
+    }
     .aboutMeContainer--photo .photoProfile {
         max-width: 300px;
+    }
+    .perfilContainer--certificates ul .curse {
+        width: 118px;
+    }
+    .perfilContainer--certificates ul .curse img {
+        width: 120px;
     }
     .perfilContainer--certificates ul .curse:nth-last-child(-n+3) {
         display: none;
