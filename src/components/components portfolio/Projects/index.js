@@ -35,7 +35,7 @@ function Projects() {
                 <div className="project">
                     <img src={second_project} alt="Imagen de proyecto del desarrollador Josue Martinez" />
                     <div className="project--description">
-                        <h2>Agency Landing Page</h2>
+                        <h2>Landing Page</h2>
                         <p>HTML, CSS, GitHub Pages</p>
                         <div className="project--description__buttons">
                             <a className='header--menu__contact' href="https://josuemartinezgonzalez.github.io/Agency-Landing-Page/" target="_blank">Go <i> <BiLinkExternal/> </i></a>
